@@ -1,0 +1,42 @@
+.mobile-view {
+    display: none;
+}
+
+.google {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1em;
+}
+
+.mob-button {
+    padding: 0.5em;
+    margin-top: 2em;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    background-color: white;
+    color: grey;
+    font-size: 12px;
+    height: 70px;
+    border-radius: 1em;
+}
+
+.button-wrapper {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.mobile-view {
+    justify-items: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    .mobile-view {
+        display: inline;
+
+    }
+}

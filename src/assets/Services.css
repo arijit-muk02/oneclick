@@ -1,0 +1,42 @@
+.menuflex{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    box-shadow: 0px 97px 39px rgba(104, 52, 3, 0.01), 0px 54px 33px rgba(104, 52, 3, 0.03), 0px 24px 24px rgba(104, 52, 3, 0.05), 0px 6px 13px rgba(104, 52, 3, 0.06), 0px 0px 0px rgba(104, 52, 3, 0.06);
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.menuflex img{
+    padding: 15px;
+}
+.menu h1{
+    padding-top: 4%;
+}
+.menuflex2{
+    display: flex;
+    gap: 40px;
+}
+.menuflex2 img{
+    padding: 15px;
+}
+@media only screen and (max-width: 1080px) {
+    .desktop-menu{
+        display: none;
+    }
+    .text-center h1, .text-center h4{
+        display: none;
+    }
+    .m22{
+        display: inline;
+    }
+    .momo{
+        margin-top: 45px;
+    }
+    .text-center{
+        margin-top: 40px;
+    }
+}

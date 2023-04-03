@@ -1,0 +1,64 @@
+.Log{
+    margin-top: 80px;
+}
+.headings {
+    text-align: center;
+}
+
+.headings p {
+    color: #20C805;
+    font-size: 22px;
+}
+
+.headings p a {
+    color: #20C805;
+}
+
+.headings h3,
+.headings h5 {
+    color: #1448FF;
+}
+
+.headings h3 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.headings h5 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.comment p {
+    font-size: 25px;
+    color: #FF842B;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.input {
+    max-width: 250px;
+    width: 320px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+}
+
+#gender {
+    max-width: 250px;
+    width: 320px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+}
+
+.input:invalid {
+    animation: justshake 0.3s forwards;
+    color: red;
+}

@@ -1,0 +1,54 @@
+footer {
+    padding: 20px;
+    background-color: #0f0f0f;
+    margin-top: 4%;
+}
+
+footer h6 {
+    font-weight: lighter;
+}
+
+footer .wrapper-footer {
+    display: flex;
+    gap: 20px;
+}
+
+footer .item {
+    width: 100%;
+    text-align: center;
+}
+
+footer .item a {
+    font-size: 85%;
+}
+
+footer p {
+    color: #FF842B;
+    font-weight: 100;
+}
+
+footer small {
+    color: wheat;
+}
+
+footer i {
+    font-size: 25px;
+    color: wheat;
+}
+
+footer i:hover {
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .main{
+        display: none;
+    }
+    .wrapper-footer {
+        display: block;
+    }
+    footer .wrapper-footer {
+        display: flex;
+        gap: 10px;
+    }
+}
